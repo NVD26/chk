@@ -19,7 +19,7 @@ setup(
     license='Apache 2.0',
     entry_points={
         'console_scripts': [
-            'run-aws-local=localstack.run_aws_local:main'
+            'run-aws-local=chk.run_aws_local:main'
             ]
     },
     include_package_data=True,
